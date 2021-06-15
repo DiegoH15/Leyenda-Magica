@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
         if (hor !=0.0f || ver != 0.0f)
         {
-            Vector3 dir = transform.forward * ver + transform.right * hor;
+            Vector3 dir = transform.forward * -ver + transform.right * -hor;
             rigidbody.MovePosition(transform.position + dir*speed*Time.deltaTime);
         }
    
