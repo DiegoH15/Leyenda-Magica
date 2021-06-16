@@ -15,11 +15,11 @@ C:/Users/PC/Documents/GitHub/Leyenda-Magica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52497
+54718
 Successfully changed project path to: C:/Users/PC/Documents/GitHub/Leyenda-Magica
 C:/Users/PC/Documents/GitHub/Leyenda-Magica
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,51 +35,690 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001694 seconds.
+Registered in 0.001728 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.922 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000706 seconds.
+Registered in 0.000553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.697 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1289 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 76.6 MB.
 System memory in use after: 76.7 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1747.
-Total: 1.682700 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.407600 ms  DeleteObjects: 0.060700 ms)
+Total: 1.631200 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.389000 ms  DeleteObjects: 0.057100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TextMesh Pro/Documentation
-  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2adce1cbc01bf30f4e376e0fa11234f') in 0.010991 seconds
-  Import took 0.013017 seconds .
+  path: Assets/assets/Tutorial/Entrada_Cueva.prefab
+  artifactKey: Guid(344a70dca1ab00a45889ef9647809a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Tutorial/Entrada_Cueva.prefab using Guid(344a70dca1ab00a45889ef9647809a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db88b10fcc9cb19878c1f4144e60dac') in 0.093565 seconds
+  Import took 0.095779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.092141 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb1b28908fce42afdf73a1a3a7e33d') in 0.082570 seconds
-  Import took 0.084966 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/assets/Tutorial/Camino.prefab
+  artifactKey: Guid(c4bd1c470cdf14c438b030acf44d6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Tutorial/Camino.prefab using Guid(c4bd1c470cdf14c438b030acf44d6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c495086ba7f63ff45a3e66a33cd805') in 0.016444 seconds
+  Import took 0.019183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/assets/Tutorial/Arbol.prefab
+  artifactKey: Guid(8f7a3bbe39122a142a916dbcd482e79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Tutorial/Arbol.prefab using Guid(8f7a3bbe39122a142a916dbcd482e79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb1194179c7ca071e55c5d01180d27') in 0.026564 seconds
+  Import took 0.028484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/assets/Tutorial/Cesped.prefab
+  artifactKey: Guid(25ab919db9dc9cc4d95dc3598648a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Tutorial/Cesped.prefab using Guid(25ab919db9dc9cc4d95dc3598648a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726d3439c6e76f0942b7b444f87235e5') in 0.014484 seconds
+  Import took 0.016775 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.0 MB.
+System memory in use after: 53.2 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 2.120500 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.905200 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.943300 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0680538e3bf6205c8fcff5f1ca17e6d') in 0.008989 seconds
+  Import took 0.011015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/assets/Sphere 1.prefab
+  artifactKey: Guid(b9a547e046cd349449b5f40935d9bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Sphere 1.prefab using Guid(b9a547e046cd349449b5f40935d9bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817205896495fdbaf6b178a1426c92b3') in 0.018469 seconds
+  Import took 0.020394 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1758.
+Total: 1.810900 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.616700 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.704125 seconds.
+  path: Assets/assets/Sphere 1.prefab
+  artifactKey: Guid(b9a547e046cd349449b5f40935d9bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Sphere 1.prefab using Guid(b9a547e046cd349449b5f40935d9bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc8b5e8ad94f62b76ae423d70230064') in 0.043678 seconds
+  Import took 0.045924 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1762.
+Total: 1.426700 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.246300 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1765.
+Total: 1.697800 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.495400 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1768.
+Total: 1.768300 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.581900 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 1.914400 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.616100 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1774.
+Total: 2.011500 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.664600 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1111.564141 seconds.
+  path: Assets/assets/Rocas
+  artifactKey: Guid(906515c794f35944597f9939c5610443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas using Guid(906515c794f35944597f9939c5610443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666eed9aa906cb202e923344cbeca16a') in 0.010195 seconds
+  Import took 0.012740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.401607 seconds.
+  path: Assets/assets/Rocas/Roca 1.fbx
+  artifactKey: Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas/Roca 1.fbx using Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821c2051c9f4fe42446b31e8ef781611') in 0.116187 seconds
+  Import took 0.118571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/assets/Rocas/Roca 2.fbx
+  artifactKey: Guid(e8d06165171275e448524e4e27a834ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas/Roca 2.fbx using Guid(e8d06165171275e448524e4e27a834ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e56d716e30e31caef40bde7bd66e581') in 0.027068 seconds
+  Import took 0.029250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/assets/Rocas/Roca 1.fbx
+  artifactKey: Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas/Roca 1.fbx using Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821c2051c9f4fe42446b31e8ef781611') in 0.024289 seconds
+  Import took 0.026194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/assets/Rocas/Roca 4.fbx
+  artifactKey: Guid(3f49855bacf37fb4bac9d7d6d92c6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas/Roca 4.fbx using Guid(3f49855bacf37fb4bac9d7d6d92c6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42af8e465e8720068669c427890d6e85') in 0.023734 seconds
+  Import took 0.026161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/assets/Rocas/Roca 3.fbx
+  artifactKey: Guid(894459575f3de2e44b69274e867a5de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas/Roca 3.fbx using Guid(894459575f3de2e44b69274e867a5de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b122460a8bf3747354b2812db0d30e3') in 0.020909 seconds
+  Import took 0.023013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.857817 seconds.
+  path: Assets/assets/Rocas y Arbusto
+  artifactKey: Guid(906515c794f35944597f9939c5610443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto using Guid(906515c794f35944597f9939c5610443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c85e02505aae90edc0d4a4c7e66574') in 0.006570 seconds
+  Import took 0.010276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.015820 seconds.
+  path: Assets/assets/Rocas y Arbusto/Arbusto.fbx
+  artifactKey: Guid(dca0bfaa12f790d44847cb68391342af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto/Arbusto.fbx using Guid(dca0bfaa12f790d44847cb68391342af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b60d5c48dedf988ad129fc03253fbf') in 0.051283 seconds
+  Import took 0.053827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/assets/Rocas y Arbusto/Roca 2.fbx
+  artifactKey: Guid(e8d06165171275e448524e4e27a834ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto/Roca 2.fbx using Guid(e8d06165171275e448524e4e27a834ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb57bc5dc6c5875ef313f733a4e17d7') in 0.021541 seconds
+  Import took 0.023488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/assets/Rocas y Arbusto/Roca 1.fbx
+  artifactKey: Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto/Roca 1.fbx using Guid(a4b559d941dc3bd459cae888927da01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90a0289914c2e59463bb88ad97c007e') in 0.020625 seconds
+  Import took 0.022366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/assets/Rocas y Arbusto/Roca 4.fbx
+  artifactKey: Guid(3f49855bacf37fb4bac9d7d6d92c6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto/Roca 4.fbx using Guid(3f49855bacf37fb4bac9d7d6d92c6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d020187323ce4475fc1bfdd6695b7cb') in 0.020527 seconds
+  Import took 0.022555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/assets/Rocas y Arbusto/Roca 3.fbx
+  artifactKey: Guid(894459575f3de2e44b69274e867a5de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Rocas y Arbusto/Roca 3.fbx using Guid(894459575f3de2e44b69274e867a5de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cf7b721b5edf08b2579f206a3fa363') in 0.052009 seconds
+  Import took 0.054269 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 2.380400 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.034700 ms MarkObjects: 2.010500 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1070.314252 seconds.
+  path: Assets/assets/Caballero Poseido
+  artifactKey: Guid(168f9d560922bc64e9575a9e62ebae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido using Guid(168f9d560922bc64e9575a9e62ebae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752ebf73fc24860e247868cbc9ed01cf') in 0.015952 seconds
+  Import took 0.018616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.896298 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas
+  artifactKey: Guid(3f70d6ddc9f24cc43a086ddb24838e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas using Guid(3f70d6ddc9f24cc43a086ddb24838e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b9ad4b3dd2eb0e32f32e0e1d47be76') in 0.014188 seconds
+  Import took 0.017217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.031688 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco
+  artifactKey: Guid(174521774ea94b142916e96ab61dd62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco using Guid(174521774ea94b142916e96ab61dd62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3803dbf1c8a324b86402a08f723db1b5') in 0.006504 seconds
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.388677 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera
+  artifactKey: Guid(645d80fe921132443a9a0c6f53d8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera using Guid(645d80fe921132443a9a0c6f53d8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1788c4131952bd74d6f98e145517ba') in 0.007257 seconds
+  Import took 0.010454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.871444 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/New Folder
+  artifactKey: Guid(46af1db7f65e7794abb581a891a4b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/New Folder using Guid(46af1db7f65e7794abb581a891a4b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc07cf2aa46dd92f2c8ea1d21a14253f') in 0.008102 seconds
+  Import took 0.010545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.170865 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa
+  artifactKey: Guid(46af1db7f65e7794abb581a891a4b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa using Guid(46af1db7f65e7794abb581a891a4b436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d82c4f6e6c7b81c54702784b48f5b8') in 0.009703 seconds
+  Import took 0.012206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.339183 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/New Folder
+  artifactKey: Guid(e8a978785fee5f2459be31644d5608fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/New Folder using Guid(e8a978785fee5f2459be31644d5608fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e75e3d787ed3833bf1d827ed0b7539b') in 0.002184 seconds
+  Import took 0.004331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.620928 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector
+  artifactKey: Guid(e8a978785fee5f2459be31644d5608fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector using Guid(e8a978785fee5f2459be31644d5608fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2505109f9b4ef37a7816c162ec4d9d4e') in 0.007499 seconds
+  Import took 0.010269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.438186 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_baseColor.jpg
+  artifactKey: Guid(506e673dd9fb0dd479729bafee94c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_baseColor.jpg using Guid(506e673dd9fb0dd479729bafee94c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36b40a544a33679cf46a6ebcf9e8c6') in 0.050160 seconds
+  Import took 0.052544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_occlusion.jpg
+  artifactKey: Guid(7c3cca4beb6ebc948bb19364629508e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_occlusion.jpg using Guid(7c3cca4beb6ebc948bb19364629508e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c4b75f28adefa27b4e64197b86e3f1') in 0.012233 seconds
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_metallic.jpg
+  artifactKey: Guid(0b8a6336176bab74d8b2806a531a06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_metallic.jpg using Guid(0b8a6336176bab74d8b2806a531a06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f4de8aaed07d8ba4ae595bb5a2ca4a') in 0.028054 seconds
+  Import took 0.030375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_normal.png
+  artifactKey: Guid(3431e8180cb22884c97f37568ff6db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_normal.png using Guid(3431e8180cb22884c97f37568ff6db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb0ed4869f0aa39ff2d231d3e2c7239') in 0.021967 seconds
+  Import took 0.024144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_roughness.jpg
+  artifactKey: Guid(12c9a963fa637034eaa2605471b6da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_roughness.jpg using Guid(12c9a963fa637034eaa2605471b6da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8650e4e1647a956f434494c90e65b10') in 0.028112 seconds
+  Import took 0.030172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.256689 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_BaseColor.png
+  artifactKey: Guid(32147ef59d0407d4ea38ecae70f4d182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_BaseColor.png using Guid(32147ef59d0407d4ea38ecae70f4d182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632b25c85c11e21c4c6e291e904a9583') in 0.015024 seconds
+  Import took 0.017603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Height.png
+  artifactKey: Guid(ee733204675708c46a3322fd37927951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Height.png using Guid(ee733204675708c46a3322fd37927951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba84981a703539d1e9a0a5e0deaa483e') in 0.022107 seconds
+  Import took 0.024467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Normal.png
+  artifactKey: Guid(cd5836b4e9e06d54a9dcc6ef6a580a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Normal.png using Guid(cd5836b4e9e06d54a9dcc6ef6a580a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb427e70a746353bf80762762b152723') in 0.022753 seconds
+  Import took 0.025616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Metallic.png
+  artifactKey: Guid(8687298f7f41f2845a2bd9705e6a2ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Metallic.png using Guid(8687298f7f41f2845a2bd9705e6a2ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40dbeb0865fa806cc9ae63f8dfa412c') in 0.012690 seconds
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Roughness.png
+  artifactKey: Guid(c06e2e701656807428e280f01521d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Roughness.png using Guid(c06e2e701656807428e280f01521d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3eed0df8fda43be751342a928ab056') in 0.012977 seconds
+  Import took 0.015356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.149779 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_baseColor.jpg
+  artifactKey: Guid(25bcc5ac502daaa4496e87a23fe32d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_baseColor.jpg using Guid(25bcc5ac502daaa4496e87a23fe32d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb20d7e53b19791578f28cf584f6032') in 0.013624 seconds
+  Import took 0.015997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_metallic.jpg
+  artifactKey: Guid(0f5097f25f4da204dbf0ef618bf55e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_metallic.jpg using Guid(0f5097f25f4da204dbf0ef618bf55e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48776ed95cb76ec6cd454bdea17796d7') in 0.024057 seconds
+  Import took 0.026461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_occlusion.jpg
+  artifactKey: Guid(91e73887068b64f40897c02f8122f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_occlusion.jpg using Guid(91e73887068b64f40897c02f8122f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203bb8a2608e789e4bf9372d7046006f') in 0.013322 seconds
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_roughness.jpg
+  artifactKey: Guid(3332750ba1a20b4459db90ec8dc21aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_roughness.jpg using Guid(3332750ba1a20b4459db90ec8dc21aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f972a2ec8455b85616a990399a9f008') in 0.014540 seconds
+  Import took 0.016748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_normal.png
+  artifactKey: Guid(48637a76dc3a2f149b5b51cc16da0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_normal.png using Guid(48637a76dc3a2f149b5b51cc16da0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4703274e28587ad76618ed68ff70c81') in 0.019176 seconds
+  Import took 0.021649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.170531 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_baseColor.jpg
+  artifactKey: Guid(0743bf01879b25d48a3a07d3d7b288ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_baseColor.jpg using Guid(0743bf01879b25d48a3a07d3d7b288ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049c1c63f0c8e88c96b2bdd864cbbf59') in 0.012847 seconds
+  Import took 0.015246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_metallic.jpg
+  artifactKey: Guid(a7ea6173f62cf4e49b233e09e7c45ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_metallic.jpg using Guid(a7ea6173f62cf4e49b233e09e7c45ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6166f5eec2ffac48e7bf549f6f78f') in 0.011103 seconds
+  Import took 0.013042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_normal.png
+  artifactKey: Guid(cc8d30c8334328d4181e6cd32972116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_normal.png using Guid(cc8d30c8334328d4181e6cd32972116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37e3fe854a263cd82e2d0271838446') in 0.012152 seconds
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_metallic.jpg
+  artifactKey: Guid(a7ea6173f62cf4e49b233e09e7c45ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_metallic.jpg using Guid(a7ea6173f62cf4e49b233e09e7c45ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6166f5eec2ffac48e7bf549f6f78f') in 0.008249 seconds
+  Import took 0.010184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_occlusion.jpg
+  artifactKey: Guid(fd0da09cb6390394aa13a2bfe818c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_occlusion.jpg using Guid(fd0da09cb6390394aa13a2bfe818c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37359f7a8cc39237ac04bd45a62256d') in 0.011622 seconds
+  Import took 0.013964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_roughness.jpg
+  artifactKey: Guid(b20d64456663b5d4c9e69d982b282c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_roughness.jpg using Guid(b20d64456663b5d4c9e69d982b282c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5e57dfca244a63197defbaa0613059') in 0.020012 seconds
+  Import took 0.021910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_baseColor.jpg
+  artifactKey: Guid(0743bf01879b25d48a3a07d3d7b288ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_baseColor.jpg using Guid(0743bf01879b25d48a3a07d3d7b288ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049c1c63f0c8e88c96b2bdd864cbbf59') in 0.010614 seconds
+  Import took 0.012805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.663533 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa.mat
+  artifactKey: Guid(d58671826b7f5c243a327b28c8ba4b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa.mat using Guid(d58671826b7f5c243a327b28c8ba4b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274f88a3b40ac345c476763416d669a4') in 0.035387 seconds
+  Import took 0.037637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.932391 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_normal.png
+  artifactKey: Guid(cc8d30c8334328d4181e6cd32972116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Ropa/Ropa_normal.png using Guid(cc8d30c8334328d4181e6cd32972116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb878f3201ef09410d6f419c5098215') in 0.019851 seconds
+  Import took 0.022165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.887688 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector.mat
+  artifactKey: Guid(9f55d6a1b2d88fe49a4952a5555c717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector.mat using Guid(9f55d6a1b2d88fe49a4952a5555c717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484bc94399df2603522e885f17be4947') in 0.029344 seconds
+  Import took 0.031696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.451813 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_normal.png
+  artifactKey: Guid(48637a76dc3a2f149b5b51cc16da0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector_Abajo_normal.png using Guid(48637a76dc3a2f149b5b51cc16da0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b445b8005addc331cb18c153ff30edf4') in 0.012114 seconds
+  Import took 0.014508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.593463 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco.mat
+  artifactKey: Guid(5548ec90096a9e744b4d910ea7ee62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco.mat using Guid(5548ec90096a9e744b4d910ea7ee62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9b3e3ba03a7ee8541e477f7c06adc8') in 0.007882 seconds
+  Import took 0.010282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.918003 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Casco/Casco_normal.png
+  artifactKey: Guid(3431e8180cb22884c97f37568ff6db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Casco/Casco_normal.png using Guid(3431e8180cb22884c97f37568ff6db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082b75e0b322bbbfe82dcd07ae7b406e') in 0.013241 seconds
+  Import took 0.015866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.286041 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras.mat
+  artifactKey: Guid(0067c709882b04445bf76e31b1670818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras.mat using Guid(0067c709882b04445bf76e31b1670818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd283bac0ec3c63297efbfcce80e9012') in 0.028709 seconds
+  Import took 0.030995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.740400 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Normal.png
+  artifactKey: Guid(cd5836b4e9e06d54a9dcc6ef6a580a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Hombrera/Hombreras_Hombreras_Normal.png using Guid(cd5836b4e9e06d54a9dcc6ef6a580a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e35ec241ca3952442a5cc3fda861221') in 0.012343 seconds
+  Import took 0.014867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.801764 seconds.
+  path: Assets/assets/Caballero Poseido/Texturas/Protector/Protector.mat
+  artifactKey: Guid(9f55d6a1b2d88fe49a4952a5555c717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Caballero Poseido/Texturas/Protector/Protector.mat using Guid(9f55d6a1b2d88fe49a4952a5555c717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582434c42373023d7c7b5090033e09f4') in 0.021111 seconds
+  Import took 0.024093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 1.782200 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.510200 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 1.490400 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.272800 ms  DeleteObjects: 0.010900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
