@@ -2335,7 +2335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textID: {fileID: 461787595}
   parrafos:
-  - "\xA1Hola Jugador! Tus controles son A,W,S,D para moverte  y click derecho del
+  - "\xA1Hola Jugador! Tus controles son A,W,S,D para moverte y click derecho del
     mouse para usar tu hechizo. Acaba con los enemigos y llega a la cueva. \xA1Mucha
     Suerte!"
   - 
