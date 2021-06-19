@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5754135788362732739}
   - component: {fileID: 6016217428428627034}
   - component: {fileID: 1567055736021673207}
+  - component: {fileID: 5242095869379742674}
   m_Layer: 0
   m_Name: pasted__pCylinder4
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5242095869379742674
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064803032552998037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.44294402
+  m_Height: 2.4696336
+  m_Direction: 1
+  m_Center: {x: 0.000007778406, y: -0.000003695488, z: -0.0000002980232}
 --- !u!1 &3553217650612018801
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +139,7 @@ GameObject:
   - component: {fileID: 4656981784479360973}
   - component: {fileID: 163552748174913209}
   - component: {fileID: 499425771111452314}
+  - component: {fileID: 3002211300818502883}
   m_Layer: 0
   m_Name: pasted__pSphere1
   m_TagString: Untagged
@@ -194,3 +210,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &3002211300818502883
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331298166506715173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 1.4630021
+  m_Height: 2.12586
+  m_Direction: 1
+  m_Center: {x: -0.015468717, y: 0.11089015, z: 0.070669524}

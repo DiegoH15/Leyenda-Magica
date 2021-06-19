@@ -45,7 +45,9 @@ public class Dialogo : MonoBehaviour
         {
             textID.text += letra;
             yield return new WaitForSeconds(velParrafo);
+
         }
+
     }
 
     public void SiguienteParrafo()

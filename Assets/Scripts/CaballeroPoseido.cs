@@ -22,7 +22,7 @@ public class CaballeroPoseido : MonoBehaviour
         if(Vector3.Distance(transform.position,target.transform.position)>4)
         {
             cronometro += 1 * Time.deltaTime;
-            if (cronometro >= 4)
+            if (cronometro >= 2)
             {
                 rutina = Random.Range(0, 2);
                 cronometro = 0;
