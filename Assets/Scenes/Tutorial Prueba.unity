@@ -195,6 +195,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f7a3bbe39122a142a916dbcd482e79f, type: 3}
+--- !u!1 &23814345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8353082654346792069, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
+  m_PrefabInstance: {fileID: 2091713174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &23814346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23814345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9f274939a147f42bda15f6c1f8aac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  grado: 0
+  target: {fileID: 0}
 --- !u!1001 &23903636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9156,13 +9178,17 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 543450653512329607}
+    - target: {fileID: 614669740, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8353082654346792069, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_Name
       value: Caballero Metros Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8353082654346792069, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8694142758541137471, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_RootOrder
@@ -9170,15 +9196,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8694142758541137471, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -109.82623
+      value: -112.68
       objectReference: {fileID: 0}
     - target: {fileID: 8694142758541137471, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8694142758541137471, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.2832
+      value: 37.93
       objectReference: {fileID: 0}
     - target: {fileID: 8694142758541137471, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
       propertyPath: m_LocalRotation.w
