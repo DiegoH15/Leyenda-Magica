@@ -47,6 +47,75 @@ MonoBehaviour:
   btimer: 0
   maxShoot: 0
   BulletPrefaps: {fileID: 0}
+--- !u!1001 &8972394527312088892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8694142758541137471}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 85.437256
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 85.43728
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 85.437256
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.51
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99852735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0136617385
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.020028792
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.04853224
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.675
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -2.217
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5.533
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
+      propertyPath: m_Name
+      value: Espada
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e778dfb6129bf540a23006b00bff122, type: 3}
 --- !u!1001 &9164110262852940244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 71e1bf556a4eecc46a129443ab4299b1, type: 3}
       propertyPath: m_Name
-      value: Caballero Metros
+      value: Caballero Metros Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 71e1bf556a4eecc46a129443ab4299b1, type: 3}
       propertyPath: m_TagString
@@ -123,5 +192,10 @@ PrefabInstance:
 --- !u!1 &8353082654346792069 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 71e1bf556a4eecc46a129443ab4299b1, type: 3}
+  m_PrefabInstance: {fileID: 9164110262852940244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8694142758541137471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 71e1bf556a4eecc46a129443ab4299b1, type: 3}
   m_PrefabInstance: {fileID: 9164110262852940244}
   m_PrefabAsset: {fileID: 0}
