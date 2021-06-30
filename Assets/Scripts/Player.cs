@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
-       
+        UpdateLife();
+
     }
 
     // Update is called once per frame
@@ -34,7 +35,34 @@ public class Player : MonoBehaviour
 
     }
 
-   
+    void UpdateLife()
+    {
+       
+    }
 
-    
+    private void OnColliderEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+            life = life - 1;
+            UpdateLife();
+            if (life <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+        
+        if (collision.gameObject.CompareTag("Vida"))
+        {
+            Destroy(collision.gameObject);
+            life = life + 1;
+            UpdateLife();
+        }
+
+    }
+
+
+
+
 }

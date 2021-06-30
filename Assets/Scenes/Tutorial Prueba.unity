@@ -496,6 +496,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f7a3bbe39122a142a916dbcd482e79f, type: 3}
+--- !u!1 &112017296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8353082654346792069, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
+  m_PrefabInstance: {fileID: 2091713174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &112017297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112017296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9f274939a147f42bda15f6c1f8aac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  grado: 0
+  target: {fileID: 0}
 --- !u!1 &119492218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,7 +1576,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248876196}
-  m_LocalRotation: {x: 0.16018963, y: 0.8394501, z: -0.35352817, w: 0.3803691}
+  m_LocalRotation: {x: 0.16018964, y: 0.8394501, z: -0.35352817, w: 0.38036913}
   m_LocalPosition: {x: 121.63326, y: 27.39, z: 51.45665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5199,6 +5221,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f54ba62a7902a449a3948346892213, type: 3}
+--- !u!1 &896781347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8353082654346792069, guid: 174c7ec8dc8a5ab4693dc3e148107b9c, type: 3}
+  m_PrefabInstance: {fileID: 1616228262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &896781348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896781347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9f274939a147f42bda15f6c1f8aac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  grado: 0
+  target: {fileID: 0}
 --- !u!1 &904885389
 GameObject:
   m_ObjectHideFlags: 0
@@ -11084,7 +11128,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140065302}
-  m_LocalRotation: {x: 0.16018963, y: 0.8394501, z: -0.3535282, w: 0.38036913}
+  m_LocalRotation: {x: 0.1601896, y: 0.8394501, z: -0.3535282, w: 0.3803691}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11487,7 +11531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6311354fd63c9ae4ba801d999a268e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 10
+  life: 100
   lifemax: 10
   speed: 30
   bulletPrefab: {fileID: 2244291689811463081, guid: b9a547e046cd349449b5f40935d9bcdb, type: 3}
