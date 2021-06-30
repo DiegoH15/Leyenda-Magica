@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Enemy
   - Magia1
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 

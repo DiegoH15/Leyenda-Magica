@@ -10,6 +10,7 @@ public class CaballeroPoseido : MonoBehaviour
     public float cronometro;
     public Quaternion angulo;
     public float grado;
+    public bool closeToPlayer;
 
     public GameObject target;
 
@@ -64,6 +65,7 @@ public class CaballeroPoseido : MonoBehaviour
     void Update()
     {
         Comportamiento_Enemigo();
+        KnockBack();
     }
 
     void UpdateLife()
@@ -85,5 +87,26 @@ public class CaballeroPoseido : MonoBehaviour
         }
 
 
+    }
+
+    public void KnockBack()
+    {
+        if (Vector3.Distance(transform.position, target.transform.position) < 2)
+        {
+            closeToPlayer = true;
+        }
+        else if (Vector3.Distance(transform.position, target.transform.position) >= 2)
+        {
+            closeToPlayer = false;
+        }
+        if (closeToPlayer)
+        {
+            if (Input.GetKeyDown(target.GetComponent<PlayerModel>().Ability) && target.GetComponent<PlayerModel>().manaValue >= 30
+                && target.GetComponent<PlayerModel>().protectAbility == true)
+            {
+                Vector3 dir = transform.position - target.transform.position;
+                gameObject.GetComponent<Rigidbody>().AddForce(dir.normalized * target.GetComponent<PlayerModel>().knockBackForce, ForceMode.Impulse);
+            }
+        }
     }
 }
