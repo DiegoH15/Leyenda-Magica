@@ -9,16 +9,19 @@ public class Player : MonoBehaviour
     private new Rigidbody rigidbody;
     public float speed = 10f;
     public GameObject bulletPrefab;
+
   
 
     // Start is called before the first frame update
     void Start()
     {
+        jump = new Vector3(0f, jumph, 0f);
         rigidbody = GetComponent<Rigidbody>();
         UpdateLife();
 
     }
 
+   
     // Update is called once per frame
     void Update()
     {
@@ -31,8 +34,7 @@ public class Player : MonoBehaviour
             Vector3 dir = transform.forward * -ver + transform.right * -hor;
             rigidbody.MovePosition(transform.position + dir*speed*Time.deltaTime);
         }
-   
-
+            
     }
 
     void UpdateLife()

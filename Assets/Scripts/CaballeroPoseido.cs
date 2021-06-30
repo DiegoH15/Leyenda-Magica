@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CaballeroPoseido : MonoBehaviour
 {
+    public float life;
+    public float lifemax;
     public int rutina;
     public float cronometro;
     public Quaternion angulo;
@@ -15,6 +17,7 @@ public class CaballeroPoseido : MonoBehaviour
     void Start()
     {
         target = GameObject.Find("Player");
+        UpdateLife();
     }
 
     public void Comportamiento_Enemigo()
@@ -63,5 +66,24 @@ public class CaballeroPoseido : MonoBehaviour
         Comportamiento_Enemigo();
     }
 
-    
+    void UpdateLife()
+    {
+
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Magia1"))
+        {
+            Destroy(collision.gameObject);
+            life = life - 1;
+            UpdateLife();
+            if (life <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+
+    }
 }
