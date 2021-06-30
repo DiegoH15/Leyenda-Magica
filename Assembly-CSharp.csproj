@@ -58,10 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Disparar.cs" />
-    <Compile Include="Assets\Scenes\PauseController.cs" />
+    <Compile Include="Assets\Scripts\PauseController.cs" />
     <Compile Include="Assets\Scripts\Disparo.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scenes\Menu.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Shot.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCameraControl.cs" />
     <Compile Include="Assets\Scripts\CaballeroPoseido.cs" />
