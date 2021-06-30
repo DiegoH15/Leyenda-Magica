@@ -47,11 +47,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MVC Enemy1\Vista Enemy.cs" />
+     <Compile Include="Assets\Scripts\MVC Enemy1\Modelo Enemy.cs" />
+     <Compile Include="Assets\Scripts\MVC Enemy1\VistaEnemy.cs" />
      <Compile Include="Assets\Scripts\Disparar.cs" />
      <Compile Include="Assets\Scripts\PauseController.cs" />
      <Compile Include="Assets\Scripts\Disparo.cs" />
-     <Compile Include="Assets\Scripts\MVC Enemy1\Modelo Enemy.cs" />
+     <Compile Include="Assets\Scripts\MVC Enemy1\ModeloEnemy.cs" />
+     <Compile Include="Assets\Scripts\MVC Enemy1\MVCCaballero.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Shot.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonCameraControl.cs" />
@@ -61,7 +63,7 @@
      <Compile Include="Assets\Scripts\Dialogo.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Salir.cs" />
-     <Compile Include="Assets\Scripts\MVC Enemy1\Controlador Enemy.cs" />
+     <Compile Include="Assets\Scripts\MVC Enemy1\ControladorEnemy.cs" />
      <Compile Include="Assets\Scripts\SceneChange.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
