@@ -47,7 +47,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MVC Enemy1\Modelo Enemy.cs" />
      <Compile Include="Assets\Scripts\MVC Enemy1\VistaEnemy.cs" />
      <Compile Include="Assets\Scripts\Disparar.cs" />
      <Compile Include="Assets\Scripts\PauseController.cs" />
