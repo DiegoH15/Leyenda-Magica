@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerModel))]
 public class PlayerView : MonoBehaviour
@@ -32,6 +33,7 @@ public class PlayerView : MonoBehaviour
         if (pModel.life <= 0)
         {
             pModel.life = 0;
+            SceneManager.LoadScene("Perdiste");
             gameObject.SetActive(false);
         }
         pModel.life += 2 * Time.deltaTime;

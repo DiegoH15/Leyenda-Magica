@@ -77,6 +77,10 @@
     <Compile Include="Assets\Scripts\MVC Player\PlayerView.cs" />
     <Compile Include="Assets\Scripts\Procedural\Cueva.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
+    <Compile Include="Assets\Scripts\Boss\StaticEnemiesController.cs" />
+    <Compile Include="Assets\Scripts\Boss\DestroyAtCol.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss.cs" />
+    <Compile Include="Assets\assets\Toc\Toc.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

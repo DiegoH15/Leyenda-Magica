@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerModel))]
 public class PlayerController : MonoBehaviour
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
         UseAbility();
         Rotate(pModel.mouseInput);
         CamDirection();
+       
     }
 
     //-----------------------------------------------------------------------------------------
@@ -174,6 +176,18 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             pModel.enemies = null;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.CompareTag("Next"))
+        {
+            SceneManager.LoadScene("NuevoNivel2");
+        }
+        if(collision.collider.CompareTag("caer"))
+        {
+            SceneManager.LoadScene("Perdiste");
         }
     }
 }

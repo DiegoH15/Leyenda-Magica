@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Magia1
   - Ground
+  - Next
+  - caer
   layers:
   - Default
   - TransparentFX
