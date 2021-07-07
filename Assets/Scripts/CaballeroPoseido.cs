@@ -23,7 +23,7 @@ public class CaballeroPoseido : MonoBehaviour
 
     public void Comportamiento_Enemigo()
     {
-        if(Vector3.Distance(transform.position,target.transform.position)>4)
+        if(Vector3.Distance(transform.position,target.transform.position)>6)
         {
             cronometro += 1 * Time.deltaTime;
             if (cronometro >= 2)

@@ -12,6 +12,7 @@ public class ModeloEnemy : MonoBehaviour
     public bool closeToPlayer;
     public GameObject target;
     public Rigidbody rb;
+    public GameObject enemies;
 
     // Start is called before the first frame update
     private void Start()

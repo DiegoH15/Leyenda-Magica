@@ -5,6 +5,8 @@ using UnityEngine;
 public class ControladorEnemy : MonoBehaviour
 {
     private ModeloEnemy MEnemy;
+    
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -20,21 +22,21 @@ public class ControladorEnemy : MonoBehaviour
 
     void KnockBack()
     {
-        if (Vector3.Distance(MEnemy.transform.position, target.transform.position) < 2)
+        if (Vector3.Distance(MEnemy.transform.position, MEnemy.target.transform.position) < 2)
         {
-            closeToPlayer = true;
+            MEnemy.closeToPlayer = true;
         }
-        else if (Vector3.Distance(MEnemy.transform.position, target.transform.position) >= 2)
+        else if (Vector3.Distance(MEnemy.transform.position, MEnemy.target.transform.position) >= 2)
         {
-            closeToPlayer = false;
+            MEnemy.closeToPlayer = false;
         }
-        if (closeToPlayer)
+        if (MEnemy.closeToPlayer)
         {
-            if (Input.GetKeyDown(target.GetComponent<PlayerModel>().Ability) && target.GetComponent<PlayerModel>().manaValue >= 30
-                && target.GetComponent<PlayerModel>().protectAbility == true)
+            if (Input.GetKeyDown(MEnemy.target.GetComponent<PlayerModel>().Ability) && MEnemy.target.GetComponent<PlayerModel>().manaValue >= 30
+                && MEnemy.target.GetComponent<PlayerModel>().protectAbility == true)
             {
-                Vector3 dir = MEnemy.transform.position - target.transform.position;
-                gameObject.GetComponent<Rigidbody>().AddForce(dir.normalized * target.GetComponent<PlayerModel>().knockBackForce, ForceMode.Impulse);
+                Vector3 dir = MEnemy.transform.position - MEnemy.target.transform.position;
+                gameObject.GetComponent<Rigidbody>().AddForce(dir.normalized * MEnemy.target.GetComponent<PlayerModel>().knockBackForce, ForceMode.Impulse);
             }
         }
     }
@@ -43,22 +45,22 @@ public class ControladorEnemy : MonoBehaviour
     {
         if (Vector3.Distance(MEnemy.transform.position, MEnemy.target.transform.position) > 4)
         {
-            cronometro += 1 * Time.deltaTime;
-            if (cronometro >= 2)
+            MEnemy.cronometro += 1 * Time.deltaTime;
+            if (MEnemy.cronometro >= 2)
             {
-                rutina = Random.Range(0, 2);
-                cronometro = 0;
+                MEnemy.rutina = Random.Range(0, 2);
+                MEnemy.cronometro = 0;
             }
-            switch (rutina)
+            switch (MEnemy.rutina)
             {
                 case 0:
-                    grado = Random.Range(0, 360);
-                    angulo = Quaternion.Euler(0, grado, 0);
-                    rutina++;
+                    MEnemy.grado = Random.Range(0, 360);
+                    MEnemy.angulo = Quaternion.Euler(0, MEnemy.grado, 0);
+                    MEnemy.rutina++;
                     break;
 
                 case 1:
-                    MEnemy.transform.rotation = Quaternion.RotateTowards(transform.rotation, angulo, 0.5f);
+                    MEnemy.transform.rotation = Quaternion.RotateTowards(transform.rotation, MEnemy.angulo, 0.5f);
                     MEnemy.transform.Translate(Vector3.forward * 1 * Time.deltaTime);
                     break;
             }
@@ -67,7 +69,7 @@ public class ControladorEnemy : MonoBehaviour
         }
         else
         {
-            var LookPoos = target.transform.position - transform.position;
+            var LookPoos = MEnemy.target.transform.position - transform.position;
             LookPoos.y = 0;
             var rotation = Quaternion.LookRotation(LookPoos);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 2);

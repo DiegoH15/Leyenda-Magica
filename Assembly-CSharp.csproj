@@ -62,7 +62,6 @@
     <Compile Include="Assets\Scripts\PauseController.cs" />
     <Compile Include="Assets\Scripts\Disparo.cs" />
     <Compile Include="Assets\Scripts\MVC Enemy1\ModeloEnemy.cs" />
-    <Compile Include="Assets\Scripts\MVC Enemy1\MVCCaballero.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Shot.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCameraControl.cs" />
@@ -76,8 +75,8 @@
     <Compile Include="Assets\Scripts\MVC Enemy1\ControladorEnemy.cs" />
     <Compile Include="Assets\Scripts\MVC Player\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\MVC Player\PlayerView.cs" />
-    <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\Procedural\Cueva.cs" />
+    <Compile Include="Assets\Scripts\SceneChange.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

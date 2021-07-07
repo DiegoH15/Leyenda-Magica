@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3493772533599219964}
   - component: {fileID: 5256696879692215241}
   - component: {fileID: 4372024464022965043}
+  - component: {fileID: 6288100420325713492}
   m_Layer: 0
   m_Name: pPlane39
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6288100420325713492
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763044366946455685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5049398816203094204, guid: 789161858e078d647bd8e913c6c5ce6e, type: 3}
 --- !u!1 &7321920538770379639
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 6532945968210908898}
   - component: {fileID: 2193262022480926853}
   - component: {fileID: 5072563137014811714}
+  - component: {fileID: 440700270373558691}
   m_Layer: 0
   m_Name: pPlane38
   m_TagString: Untagged
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &440700270373558691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321920538770379639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4086890443302065917, guid: 789161858e078d647bd8e913c6c5ce6e, type: 3}
 --- !u!1 &8158275333863492398
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,9 +203,10 @@ GameObject:
   - component: {fileID: 240710020245449927}
   - component: {fileID: 7760130308853075590}
   - component: {fileID: 5763013193503831346}
-  m_Layer: 0
+  - component: {fileID: 6398737824506138759}
+  m_Layer: 3
   m_Name: Piso5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +274,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6398737824506138759
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158275333863492398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6935807905388329322, guid: 789161858e078d647bd8e913c6c5ce6e, type: 3}
 --- !u!1 &8562649623572731315
 GameObject:
   m_ObjectHideFlags: 0

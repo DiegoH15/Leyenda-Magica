@@ -76,14 +76,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e9f274939a147f42bda15f6c1f8aac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 0
-  lifemax: 0
+  life: 100
+  lifemax: 100
   rutina: 0
   cronometro: 0
   angulo: {x: 0, y: 0, z: 0, w: 0}
   grado: 0
   closeToPlayer: 0
-  target: {fileID: 0}
+  target: {fileID: 5333698544449880168, guid: 7a76116a6602db947a2f8dca3c8857c2, type: 3}
 --- !u!1 &8791737104184431679
 GameObject:
   m_ObjectHideFlags: 0

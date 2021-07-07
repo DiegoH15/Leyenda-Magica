@@ -11,9 +11,9 @@ public class VistaEnemy : MonoBehaviour
         MEnemy = GetComponent<ModeloEnemy>();
     }
    
-    void UpdateLife()
+    /*void UpdateLife()
     {
-        life.fillAmount = MEnemy.life / MEnemy.maxlife;
+        MEnemy.life.fillAmount = MEnemy.life / MEnemy.maxlife;
 
         if (MEnemy.life >= MEnemy.maxlife)
         {
@@ -24,12 +24,12 @@ public class VistaEnemy : MonoBehaviour
             MEnemy.life = 0;
             gameObject.SetActive(false);
         }
-        MEnemy.life += 2 * Time.delta
-    }
+        MEnemy.life += 2 * Time.deltaTime;
+    }*/
     
     // Update is called once per frame
     void Update()
     {
-        UpdateLife();
+        //UpdateLife();
     }
 }
