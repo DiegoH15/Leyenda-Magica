@@ -18,6 +18,7 @@ public class ControladorEnemy : MonoBehaviour
     {
         Comportamiento_Enemigo();
         KnockBack();
+        
     }
 
     void KnockBack()
@@ -86,6 +87,7 @@ public class ControladorEnemy : MonoBehaviour
         if (other.CompareTag("Magia1"))
         {
             MEnemy.enemies = other.gameObject;
+            
         }
     }
     private void OnTriggerExit(Collider other)
